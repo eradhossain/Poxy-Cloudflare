@@ -33,7 +33,7 @@ export default {
 		} else if (url.pathname === '/') {
 			return new Response(
 				JSON.stringify({
-					message: 'Welcome to Roxy',
+					message: 'Welcome to Iptv by Erad Hossain',
 					Endpoints: [
 						{ '/proxy': 'For HLS' },
 						{ '/cors': 'For CORS' },
