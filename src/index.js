@@ -40,9 +40,7 @@ export default {
 						{ '/image': 'For Manga Images' },
 						{ '/thumbnail': 'For Thumbnails' },
 					],
-					params: '?url=<Base64-encoded-m3u8-url>&headers=<Base64-encoded-headers>',
-					tip: 'Base64Encoding is optional for /cors, /thumbnail, /image. Encode the url if it gives error. For /proxy, encoding is required.',
-				}),
+				    }),
 				{
 					status: 200,
 					headers: {
