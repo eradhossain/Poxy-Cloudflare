@@ -34,12 +34,6 @@ export default {
 			return new Response(
 				JSON.stringify({
 					message: 'Welcome to Iptv by Erad Hossain',
-					Endpoints: [
-						{ '/proxy': 'For HLS' },
-						{ '/cors': 'For CORS' },
-						{ '/image': 'For Manga Images' },
-						{ '/thumbnail': 'For Thumbnails' },
-					],
 				    }),
 				{
 					status: 200,
